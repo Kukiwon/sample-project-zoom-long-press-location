@@ -23,7 +23,6 @@
 		E5BA8EA52822623900FC6039 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E5BA8EA62822623A00FC6039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5BA8EAB2822623A00FC6039 /* DemoZoomScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoZoomScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5BA8EB32822623A00FC6039 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		E5BA8EC22822627200FC6039 /* SheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		E5BA8EC52822627700FC6039 /* InspectionMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectionMarkerView.swift; sourceTree = "<group>"; };
 		E5BA8ECB282262CB00FC6039 /* SheetViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetViewModel.swift; sourceTree = "<group>"; };
@@ -47,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				E5BA8EA32822623900FC6039 /* Shared */,
-				E5BA8EB22822623A00FC6039 /* macOS */,
 				E5BA8EAC2822623A00FC6039 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,14 +71,6 @@
 				E5BA8EAB2822623A00FC6039 /* DemoZoomScrollView.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E5BA8EB22822623A00FC6039 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				E5BA8EB32822623A00FC6039 /* macOS.entitlements */,
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
